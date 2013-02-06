@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eventmanager>
+	<event>
+		<eventid></eventid>
+		<eventname></eventname>
+		<eventloc></eventloc>
+		<eventdate></eventdate>
+		<eventtime></eventtime>
+		<eventtype></eventtype>
+		<eventownerid></eventownerid>
+		<invitations>
+			<userid></userid>
+			<userid></userid>
+		</invitations>
+	</event>
+</eventmanager>
