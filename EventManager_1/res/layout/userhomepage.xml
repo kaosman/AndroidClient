@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/widget46"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <Button
+        android:id="@+id/button_creategrp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_creategroup"
+        android:text="Create" >
+    </Button>
+
+    <TextView
+        android:id="@+id/text_creategroup"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_grouplist"
+        android:text="Do you want to create a new group?"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textSize="18sp" >
+    </TextView>
+
+    <Spinner
+        android:id="@+id/spinner_grouplist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_grouplist"
+        android:prompt="@string/group_list" />
+
+    <TextView
+        android:id="@+id/text_grouplist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_userwelcome"
+        android:text="List of available groups" />
+
+    <TextView
+        android:id="@+id/text_userwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:text="User home page"
+        android:textSize="18sp" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/text_eventwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/button_creategrp"
+        android:layout_marginTop="20dp"
+        android:text="List of upcoming events"
+        android:textAppearance="?android:attr/textAppearanceSmall" />
+
+    <Spinner
+        android:id="@+id/spinner_eventlist"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventwelcome" />
+
+    <TextView
+        android:id="@+id/text_createevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/spinner_eventlist"
+        android:layout_marginTop="21dp"
+        android:text="Do you want to create an event?"
+        android:textAppearance="?android:attr/textAppearanceMedium" />
+
+    <Button
+        android:id="@+id/button_createevent"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_createevent"
+        android:text="Create" />
+
+    <Button
+        android:id="@+id/button_logout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="43dp"
+        android:text="Logout" />
+
+</RelativeLayout>

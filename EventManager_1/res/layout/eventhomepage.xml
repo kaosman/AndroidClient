@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <TextView
+        android:id="@+id/text_eventwelcome"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="15dp"
+        android:text="Welcome to the event&apos;s page"
+        android:textSize="20.5sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_eventnamemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventwelcome"
+        android:layout_marginTop="20dp"
+        android:text="Event Name :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_eventdescmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventnamemsg"
+        android:layout_marginTop="14dp"
+        android:text="Event description :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_eventlocationmsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventdescmsg"
+        android:layout_marginTop="16dp"
+        android:text="Event Location :" 
+        android:textStyle="bold"/>
+
+    <TextView
+        android:id="@+id/text_eventdatemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventlocationmsg"
+        android:layout_marginTop="17dp"
+        android:text="Event Date :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_eventtimemsg"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/text_eventdatemsg"
+        android:layout_marginTop="16dp"
+        android:text="Event Time :"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/text_eventname"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_eventdescmsg"
+        android:layout_toRightOf="@+id/text_eventlocationmsg"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_eventdesc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_eventdescmsg"
+        android:layout_alignBottom="@+id/text_eventdescmsg"
+        android:layout_centerHorizontal="true"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_eventlocation"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_eventlocationmsg"
+        android:layout_alignBottom="@+id/text_eventlocationmsg"
+        android:layout_toRightOf="@+id/text_eventdescmsg"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_eventdate"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/text_eventtimemsg"
+        android:layout_toRightOf="@+id/text_eventlocationmsg"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/text_eventtime"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/text_eventtimemsg"
+        android:layout_alignBottom="@+id/text_eventtimemsg"
+        android:layout_toRightOf="@+id/text_eventlocationmsg"
+        android:text="TextView" />
+
+    <Button
+        android:id="@+id/button_home"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="58dp"
+        android:layout_toRightOf="@+id/text_eventdescmsg"
+        android:text="Home" />
+
+</RelativeLayout>

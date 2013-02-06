@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="hello">Hello World, EventManager_1Activity!</string>
+    <string name="app_name">EventManager_1</string>
+     <string name="Username">Username</string>
+    <string name="Password">Password</string>
+    <string name="Login">Login</string>
+    <string name="Register">Create new account</string>
+    <string name="group_list">Choose a group</string>
+    <string-array name="group_list_array">
+        <item>Group1</item>
+        <item>Group2</item>
+        <item>Group3</item>
+    </string-array>
+    <string name="JoinGroup">Go to Group</string>
+    
+    <string name="CreateGroup">Create Group</string>
+    <string name="TextGroupCreate">Welcome, let us create a new group. Please enter a name for your group.</string>
+    <string name="ButtonCreateGroup">Create</string>
+    <string name="ToastGroupCreated">Group created successfully</string>
+    
+    <string name="RegisterText">Please register if you are not an existing member</string>
+    <string name="GroupHomepage">Group Homepage</string>
+    <string name="GroupCalendar">Calendar</string>
+    
+    <string name="Result">Connection Successful</string>
+    <string-array name="EventList">
+        <item>Event1</item>
+        <item>Event2</item>
+        <item>Event3</item>
+    </string-array>
+    
+        
+    <string name="GroupMessage1">A group ID will be provided on successful group creation. Please note this ID for future sign ons. </string>    
+       
+
+</resources>
